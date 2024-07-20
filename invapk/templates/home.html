@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <div class="content">
+         <div class="main-content"  style="margin-left:-110px;">
+
+
+            <div class="page-content" style="margin-left:189px;">
+                <div class="container-fluid">
+        <div class="card" style="width: 1150px;height: 550px;margin-left:100px;">
+                                  <div class="card-header">
+
+
+                          <h6 style="align-content: center;"><b>Inventory&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b></h6>
+
+
+
+
+                                    </div>
+                                  <div class="card-body">
+                                 <table id="example" class="table table-striped table-bordered" style="width: 1110px;margin-right: 50px;">
+                                  <thead >
+                                <tr class="text-center">
+                                    <th >#</th>
+                                    <th >Product/code</th>
+                                    <th >Starting Inventory</th>
+                                    <th >Inventory Recieved</th>
+                                    <th >Inventory Shipped</th>
+                                    <th >Inventory Hand</th>
+
+                                </tr>
+                            </thead>
+                            <tbody class="list form-check-all" align="center">
+                                <tr>
+                                    <td>1</td>
+                                    <td >Product 103</td>
+                                    <td >20</td>
+                                    <td>10</td>
+                                    <td >0</td>
+                                    <td >30</td>
+
+                                </tr>
+                                <tr>
+                                    <td >2</td>
+                                    <td >Product 102</td>
+                                    <td >15</td>
+                                    <td >35</td>
+                                    <td >3</td>
+                                    <td >47</td>
+
+                                </tr>
+
+
+
+                            </tbody>
+                                 </table></div>
+                                 <br>
+
+
+                                </div>
+                              </div>
+                              </div>
+                            </div>
+                          </div>
+<script>
+                $(document).ready(function(){
+                $('#example').DataTable();
+                });
+            </script>
+
+
+{% endblock %}
